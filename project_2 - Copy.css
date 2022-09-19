@@ -1,0 +1,44 @@
+.outer_div{
+    background-image:url("../mount.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width:500px;
+    padding:80px 150px 60px 200px;
+}
+
+.inner-div{
+    background-color:silver;
+    height:480px;
+    width:360px;
+    opacity:0.4;
+    
+}
+
+form{
+    text-align: center;
+    padding-top:150px;
+    opacity: 1 !important; 
+}
+
+.textfield{
+    width: 250px;
+    border-radius:4px;
+    height:30px;
+    padding-left: 10px;
+    
+      
+}
+.submit-btn{
+    background-color:green;
+    margin-bottom:10px;
+    width:260px;
+    color:white;
+}
+.span-text{
+    margin-right:150px;
+    color:white;
+}
+
+

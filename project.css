@@ -1,0 +1,54 @@
+/* tag sytling */
+h2{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+span{
+    color:red;
+    
+}
+.outer-div{
+    background-color: black;
+    padding-right: 100px ;
+    padding-left: 100px;
+    width:550px;
+    
+}
+.middle-div{
+    background-color: coral;
+    padding: 60px 150px 80px 150px;
+    width:250px;
+    
+    
+}
+
+.form-field{
+    width:200px ;
+    border-radius:5px ;
+    border: darkgray;
+    height:30px;
+}
+.form-div{
+    background-color:white ;
+    border-radius:5px;
+    padding-bottom: 20px;
+    
+}
+
+.submit-btn{
+    background-color: blue;
+}
+.text-field{
+    background-color: darkgray;
+}
+.mid-shape{
+    height: 250px;
+    width:250px ;
+}
+
+
+
+
+

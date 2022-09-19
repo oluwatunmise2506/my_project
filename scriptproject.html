@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b id="boldtext" onmouseover="mouseover()">The area of  the Square is <span id="areaValue"></span></b><br>
+    <form action="">
+        <input type="text" placeholder="Length" id="length"><br><br>
+        <input type="text" placeholder="Breadth" id="breadth"><br><br>
+        <input type="button" value="calculate" onclick="getAreaOfSquare()">
+    </form>
+    <hr>
+    <b>The area of the triangle is <span id="triangleSpan"></span></b><br>
+    <form action="">
+        <input type="text" placeholder="height" id="height" ><br><br>
+        <input type="text" placeholder="base" id="base" ><br><br>
+        <input type="button" value="calculate" onclick="getAreaOfTriangle()">
+    </form>
+    <hr>
+    <b>The area of a rectangle is <span id="rectangleSpan"></span></b>
+    <form action="">
+        <input type="text"placeholder="length" id="rectasngleLength"><br><br>
+        <input type="text"placeholder="breadth" id="rectangleBreadth"><br><br>
+        <input type="button" value="solve" onclick="getAreaOfRectangle()" >
+    </form>
+    <hr>
+    <form action="">
+        <input type="text" placeholder="Firstname" id="fName" onchange="ValidateInput()"><br><br>
+        <input type="text" placeholder="Lastname" id="lName"><br><br>
+        <input type="button" value="Login" onclick="LoginForm()">
+    </form>
+    <hr>
+    <h5>Show if a number is divisible by another without a remainder: </h5>
+    <form action="">
+        <input type="text" placeholder="Number" id="number"><br><br>
+        <input type="text" placeholder="Divisor" id="divisor"><br><br>
+        <input type="submit" value="Check Visibility" onclick="CheckVisibility()">
+    </form>
+    <hr>
+    <P id="paragraph"></P>
+    <p>Be good</p>
+    <button onclick="change(Doit)" >click here to change text</button>
+    <hr>
+    <input type="button" value="click to switch on" onclick="switchImage()">
+    <img id="image" src="../darkmode.html" alt="trolls image">
+    <input type="button" value="click to switch off" onclick="changeImage()">
+    <hr>
+    <h1 id="myText">Nigeria is ahome of great beauty,giant of Africa</h1>
+    <input type="button" value="click here" onclick="changeText()"><br>
+    <span>It is good to listen to instructions</span>
+    <p id="text"></p><br>
+    <h1>foodies plug</h1>
+    <p id="myFav"></p>
+    <span id="mylength"></span>
+    <h2 id="splitWords"></h2>
+    
+    <p id="texttwo"></p>
+    <input type="button" value="try it" onclick="changecase()"><br><br>
+    
+    <h1 id="change">ON the first day of christmas bring rice,ON the second day,bring potatoes🥔 </h1>
+    <input type="button" value="try it" onclick="replaceWord()"><br><br>
+
+    <h2 id="padding"></h2>
+    
+
+
+     <script src="./scriptproject.js"></script>
+    
+</body>
+</html>
